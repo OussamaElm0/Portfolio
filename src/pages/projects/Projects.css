@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Prompt:wght@300&display=swap');
+
+:root {
+    --nameFont:  'Prompt', sans-serif;
+    --descriptionFont: 'Montserrat', sans-serif;
+}
+.projects-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+    padding: 1rem;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.project {
+    grid-column: span 1;
+    background-color: var(--background);
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.project-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.techs-used {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.project-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: var(--nameFont);
+    margin-bottom: 1rem;
+    color: #F9F7F7;
+    position: relative;
+}
+.project-title::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: #F9F7F7;
+    margin-top: 0.5rem;
+    position: absolute;
+    left: 25%;
+}
+.project-description {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: var(--descriptionFont);
+    margin-bottom: 1rem;
+    color: #F9F7F7;
+}
+.tech {
+    background-color: #F9F7F7;
+    color: #12486B;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 0 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.project:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+@media screen and (max-width: 768px) {
+    .projects-section {
+        grid-template-columns: 1fr;
+    }
+    .project {
+        grid-column: span 1;
+    }
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Nunito+Sans:ital,opsz,wght@1,6..12,300&display=swap');
+
+:root {
+    --font: 'Nunito', sans-serif;
+    --hover: #F9F7F7;
+    --active: #F9F7F7;
+    --background: #12486B;
+    --links: #419197;
+    --nameFont:  'Kanit', sans-serif;
+}
+
+.navbar {
+    position: sticky;
+    z-index: 999;
+    background-color: var(--background);
+    width: 100%;
+}
+.nav-link {
+    color: var(--links);
+    text-decoration: none;
+    padding: 10px 20px;
+    position: relative;
+    font-weight: 500;
+    font-size: large;
+}
+.nav-link::before,
+.nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: var(--hover);
+    transition: width 0.5s ease;
+}
+.nav-link::before {
+    bottom: 0;
+    left: 0;
+}
+.nav-link::after {
+    bottom: 0;
+    right: 0;
+}
+.nav-link:hover {
+    color: var(--hover);
+}
+.nav-link:hover::before,
+.nav-link:hover::after {
+    width: 50%;
+}
+.name {
+    font-family: var(--nameFont);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--hover);
+    text-decoration: none;
+}
+.name:hover {
+    color: var(--hover);
+}

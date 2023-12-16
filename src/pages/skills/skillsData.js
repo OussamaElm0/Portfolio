@@ -94,8 +94,8 @@ export const tools = [
     },
     {
         id: 7,
-        name: "WebStorm",
-        logo: 'https://cdn.svgporn.com/logos/webstorm.svg',
+        name: "PhpStorm",
+        logo: 'https://cdn.svgporn.com/logos/phpstorm.svg',
     },
     {
         id: 8,

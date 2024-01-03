@@ -26,6 +26,7 @@ body {
     grid-row: 1/2;
     margin-top: 10%;
     margin-left: 10%;
+    cursor: grab;
 }
 .lead {
     font-size: 1.5rem;

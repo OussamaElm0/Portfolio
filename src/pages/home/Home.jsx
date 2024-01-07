@@ -10,7 +10,7 @@ export default function Home() {
     
     useEffect(() => {
       const typed = new Typed(nameAndJob.current, {
-        strings: ["Full-Stack Web Developer.", "Front-End Developer.","Back-End Developer",],
+        strings: ["Full-Stack Web Developer.", "Front-End Developer.","Back-End Developer.",],
         typeSpeed: 50,
         backSpeed: 50,
         loop: true,

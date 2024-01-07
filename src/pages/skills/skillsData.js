@@ -51,14 +51,19 @@ export const techs = [
     },
     {
         id: 11,
+        name: "Django",
+        logo: 'https://cdn.svgporn.com/logos/django.svg',
+    },
+    {
+        id: 12,
         name: "MySQL",
         logo: 'https://cdn.svgporn.com/logos/mysql.svg',
     },
     {
-        id: 12,
+        id: 13,
         name: "MongoDB",
         logo: 'https://cdn.svgporn.com/logos/mongodb.svg',
-    }
+    },
 ]
 
 export const tools = [
@@ -101,5 +106,10 @@ export const tools = [
         id: 8,
         name: "PyCharm",
         logo: 'https://cdn.svgporn.com/logos/pycharm.svg',
+    },
+    {
+        id: 9,
+        name: "Figma",
+        logo: 'https://cdn.svgporn.com/logos/figma.svg',
     }
 ]

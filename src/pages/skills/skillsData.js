@@ -64,6 +64,12 @@ export const techs = [
         name: "MongoDB",
         logo: 'https://cdn.svgporn.com/logos/mongodb.svg',
     },
+    {
+        id: 14,
+        name: "Redux",
+        logo: 'https://cdn.svgporn.com/logos/redux.svg',
+    },
+
 ]
 
 export const tools = [
@@ -111,5 +117,16 @@ export const tools = [
         id: 9,
         name: "Figma",
         logo: 'https://cdn.svgporn.com/logos/figma.svg',
-    }
+    },
+    {
+        id: 10,
+        name: "Vercel",
+        logo: 'https://cdn.svgporn.com/logos/vercel-icon.svg',
+    },
+    {
+        id: 11,
+        name: "Netlify",
+        logo: 'https://cdn.svgporn.com/logos/netlify.svg',
+    },
+    
 ]

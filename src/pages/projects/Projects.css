@@ -35,6 +35,17 @@
     align-items: center;
     width: 100%;
 }
+.project-links a {
+    color: #F9F7F7;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: var(--nameFont);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.project-links a:hover {
+    color: #12486B;
+}
 .techs-used {
     display: flex;
     justify-content: space-around;

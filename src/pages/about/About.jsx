@@ -1,18 +1,19 @@
 import React from 'react';
 import "./About.css";
 
+
 export default function About() {
 
     return (
       <>
-        <div className="about-section">
+        <div className="about-section" data-aos="fade-up">
           <div className="whoiam">
             <h1 className="title">Who I am</h1>
-            <p className="description">
-              My name is Oussama. I'm a passionate full-stack developer from Morocco,
-              with a primary focus on React for front-end magic and Laravel for
-              crafting robust back-end solutions. Currently diving into the
-              world of Laravel, I'm also keenly interested in mobile
+            <p className="description" data-aos="fade-left">
+              My name is Oussama. I'm a passionate full-stack developer from
+              Morocco, with a primary focus on React for front-end magic and
+              Laravel for crafting robust back-end solutions. Currently diving
+              into the world of Laravel, I'm also keenly interested in mobile
               development. Beyond coding, my diverse interests include playing
               video games, indulging in movies and series, listening to a
               variety of music, and getting lost in the pages of captivating

@@ -5,6 +5,11 @@
     --titleColor: #E23E57;
     --descriptionFont: 'Kanit', sans-serif;
 }
+.about-section {
+    background-color: var(--background);
+    padding: 20px 0;
+    border-radius: 50px 50px 0px 0px;
+}
 .whoiam {
     width: 50%;
     position: relative;
@@ -23,7 +28,7 @@
     position: absolute;
     width: 50%;
     height: 5px;
-    background-color: #000;
+    background-color: #ffffff;
     bottom: -10px;
     left: 25%;
 }
@@ -34,7 +39,7 @@
     text-align: left;
     margin-top: 2rem;
     position: relative;
-    color: #000;
+    color: var(--active);
 }
 .description::after {
     content: '';

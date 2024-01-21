@@ -1,3 +1,6 @@
+#contact {
+    width: auto;
+}
 form {
     display: flex;
     flex-direction: column;

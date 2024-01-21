@@ -1,10 +1,6 @@
-/* body {
-    background-image: url("../../assets/background.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-} */
+#home {
+    width: auto;
+}
 .home-section {
     display: grid;
     grid-template-columns: 1fr 2fr;

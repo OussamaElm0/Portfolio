@@ -6,16 +6,15 @@ import "./Projects.css";
 export default function Projects() {
 
     return (
-        <>
-           <div id="projects">
-                <div className='projects-section'>
-                    {projects.map((project) => {
-                        return (
-                            <Project key={project.id} {...project} />
-                        )
-                    })}
-                </div>
-            </div>
-        </>
-    )
+      <>
+        <div id="projects" data-aos="fade-left">
+          <h1 className="projects-title">Projects</h1>
+          <div className="projects-section">
+            {projects.map((project) => {
+              return <Project key={project.id} {...project} />;
+            })}
+          </div>
+        </div>
+      </>
+    );
 }

@@ -4,6 +4,25 @@
     --nameFont:  'Prompt', sans-serif;
     --descriptionFont: 'Montserrat', sans-serif;
 }
+#projects {
+    background-color: #F9F7F7;
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.projects-title {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: var(--nameFont);
+    margin-bottom: 1rem;
+    color: var(--background);
+    position: relative;
+    text-align: center;
+}
 .projects-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

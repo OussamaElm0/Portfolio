@@ -7,7 +7,7 @@ export default function Project(props) {
 
     return (
       <>
-        <div className="project">
+        <div className="project" data-aos="fade-up">
           <img
             src={`${process.env.PUBLIC_URL}${picture}`}
             alt={name}

@@ -6,9 +6,8 @@
     --descriptionFont: 'Kanit', sans-serif;
 }
 .about-section {
-    background-color: var(--background);
+    background-color: #F9F7F7;
     padding: 20px 0;
-    border-radius: 50px 50px 0px 0px;
 }
 .whoiam {
     width: 50%;
@@ -28,18 +27,18 @@
     position: absolute;
     width: 50%;
     height: 5px;
-    background-color: #ffffff;
+    background-color: var(--background);
     bottom: -10px;
     left: 25%;
 }
 .description {
     font-family: var(--descriptionFont);
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 800;
     text-align: left;
     margin-top: 2rem;
     position: relative;
-    color: var(--active);
+    color: var(--background);
 }
 .description::after {
     content: '';
@@ -47,7 +46,7 @@
     width: 100%;
     height: 5px;
     background-color: var(--titleColor);
-    bottom: -10px;
+    bottom: -20px;
     left: 0;
 }
 @media (max-width: 768px) {

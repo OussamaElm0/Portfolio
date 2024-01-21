@@ -40,41 +40,43 @@ export default function Contact() {
 
   return (
     <>
-      <h1 className="text-center contact-title">
-        Contact <span>Me</span>
-      </h1>
-      <form ref={form} onSubmit={sendEmail}>
-        <input
-          type="text"
-          name="user_name"
-          id="user_name"
-          className="form-control"
-          placeholder="Name"
-          value={name}
-          required={true}
-          onChange={({ target: { value } }) => setName(value)}
-        />
-        <input
-          type="email"
-          name="user_email"
-          id="user_email"
-          className="form-control"
-          placeholder="Email"
-          required={true}
-          value={email}
-          onChange={({ target: { value } }) => setEmail(value)}
-        />
-        <textarea
-          name="message"
-          className="form-control"
-          id="message"
-          placeholder="Message"
-          required={true}
-          value={message}
-          onChange={({ target: { value } }) => setMessage(value)}
-        />
-        <input type="submit" value="Send" className="btn btn-submit" />
-      </form>
+      <div id="contact">
+        <h1 className="text-center contact-title">
+          Contact <span>Me</span>
+        </h1>
+        <form ref={form} onSubmit={sendEmail}>
+          <input
+            type="text"
+            name="user_name"
+            id="user_name"
+            className="form-control"
+            placeholder="Name"
+            value={name}
+            required={true}
+            onChange={({ target: { value } }) => setName(value)}
+          />
+          <input
+            type="email"
+            name="user_email"
+            id="user_email"
+            className="form-control"
+            placeholder="Email"
+            required={true}
+            value={email}
+            onChange={({ target: { value } }) => setEmail(value)}
+          />
+          <textarea
+            name="message"
+            className="form-control"
+            id="message"
+            placeholder="Message"
+            required={true}
+            value={message}
+            onChange={({ target: { value } }) => setMessage(value)}
+          />
+          <input type="submit" value="Send" className="btn btn-submit" />
+        </form>
+      </div>
     </>
   );
 }

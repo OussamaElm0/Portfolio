@@ -26,7 +26,7 @@ export default function Home() {
     
     useEffect(() => {
       const typed = new Typed(nameAndJob.current, {
-        strings: ["Full-Stack Developer.", "Front-End Developer.","Back-End Developer.",],
+        strings: ["Full-Stack Developer.", "Mern-Stack Developer","Front-End Developer.","Back-End Developer.",],
         typeSpeed: 50,
         backSpeed: 50,
         loop: true,
@@ -39,7 +39,7 @@ export default function Home() {
 
     return (
       <>
-        <div className="home-section">
+        <div className="home-section" id='home'>
           <motion.div className="hello drag-area" ref={constraintsRef}>
             <motion.div
               drag

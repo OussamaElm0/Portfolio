@@ -7,13 +7,15 @@ export default function Projects() {
 
     return (
         <>
-           <div className='projects-section'>
-                {projects.map((project) => {
-                    return (
-                        <Project key={project.id} {...project} />
-                    )
-                })}
-           </div>
+           <div id="projects">
+                <div className='projects-section'>
+                    {projects.map((project) => {
+                        return (
+                            <Project key={project.id} {...project} />
+                        )
+                    })}
+                </div>
+            </div>
         </>
     )
 }

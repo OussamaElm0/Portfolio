@@ -6,7 +6,7 @@ export default function About() {
 
     return (
       <>
-        <div className="about-section" data-aos="fade-up">
+        <div className="about-section" data-aos="fade-up" id="about">
           <div className="whoiam">
             <h1 className="title">Who I am</h1>
             <p className="description" data-aos="fade-left">

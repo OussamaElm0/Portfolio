@@ -4,11 +4,7 @@ import "./styles/Header.css";
 
 export default function Header() {
     const [scrollPosition, setScrollPosition] = useState(0);
-
-    // const changeBackground = () => {
-    //     window.scrollY >= 0 ? setNavbar(true) : setNavbar(false);
-    // }
-    // window.addEventListener('scroll', changeBackground);
+    const [navLinksClass, setNavLinksClass] = useState("nav-link");
 
     useEffect(() => {
       const handleScroll = () => {
@@ -22,6 +18,10 @@ export default function Header() {
       };
     }, []);
 
+    useEffect(() => {
+      scrollPosition > 0 ? setNavLinksClass("nav-link link-scroll") : setNavLinksClass("nav-link"); 
+    }, [scrollPosition]);
+
   return (
     <header>
       <nav
@@ -30,7 +30,13 @@ export default function Header() {
         }`}
       >
         <div className="container-fluid">
-          <div className={`name navbar-brand ${scrollPosition > 0 && "titleScroll"} `}>Oussama El Mabrouki</div>
+          <div
+            className={`name navbar-brand ${
+              scrollPosition > 0 && "titleScroll"
+            } `}
+          >
+            Oussama El Mabrouki
+          </div>
           <button
             className="navbar-toggler"
             type="button"
@@ -41,19 +47,19 @@ export default function Header() {
           </button>
           <div className="collapse navbar-collapse l-1" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a href="/" className="nav-link">
+              <a href="#home" className={navLinksClass}>
                 Home
               </a>
-              <a href="#about" className="nav-link">
+              <a href="#about" className={navLinksClass}>
                 About
               </a>
-              <a href="#skills" className="nav-link">
+              <a href="#skills" className={navLinksClass}>
                 Skills
               </a>
-              <a href="#projects" className="nav-link">
+              <a href="#projects" className={navLinksClass}>
                 Projects
               </a>
-              <a href="#contact" className="nav-link">
+              <a href="#contact" className={navLinksClass}>
                 Contact
               </a>
             </div>

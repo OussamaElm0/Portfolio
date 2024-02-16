@@ -9,6 +9,9 @@
     --nameFont:  'Kanit', sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
 .navbar {
     position: fixed;
     z-index: 999;
@@ -52,6 +55,15 @@
 .nav-link:hover::before,
 .nav-link:hover::after {
     width: 50%;
+}
+.link-scroll:hover {
+    color: var(--background);
+}
+
+.link-scroll:hover::before,
+.link-scroll:hover::after {
+    width: 50%;
+    background-color: var(--background);
 }
 .name {
     font-family: var(--nameFont);

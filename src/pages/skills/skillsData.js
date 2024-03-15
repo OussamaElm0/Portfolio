@@ -35,6 +35,11 @@ export const techs = [
         logo: 'https://cdn.svgporn.com/logos/react.svg',
     },
     {
+        id: 15,
+        name: "Sass/Scss",
+        logo:'https://cdn.svgporn.com/logos/sass.svg',
+    },
+    {
         id: 8,
         name: "NodeJS",
         logo: 'https://cdn.svgporn.com/logos/nodejs.svg',

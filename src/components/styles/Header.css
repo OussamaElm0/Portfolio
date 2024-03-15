@@ -12,6 +12,9 @@
 body {
     overflow-x: hidden;
 }
+html {
+    scroll-behavior: smooth;
+}
 .navbar {
     position: fixed;
     z-index: 999;

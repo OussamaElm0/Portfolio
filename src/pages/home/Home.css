@@ -43,7 +43,6 @@
 .links {
     display: flex;
     flex-flow: nowrap row;
-    /* justify-content: space-around; */
     position: relative;
     bottom: 0px;
     left: 20px;

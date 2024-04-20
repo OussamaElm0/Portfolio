@@ -9,6 +9,7 @@ import Projects from './pages/projects/Projects';
 import Contact from './pages/contact/Contact';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
     useEffect(() => {
@@ -17,6 +18,7 @@ export default function App() {
     
     return (
       <>
+          <Analytics />
           <Header />
           <Home />
           <About />

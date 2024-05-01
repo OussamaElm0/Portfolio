@@ -6,7 +6,7 @@
 }
 #projects {
     background-color: #F9F7F7;
-    padding: 2rem;
+    /* padding: 2rem; */
     height: 100%;
     display: flex;
     flex-direction: column;

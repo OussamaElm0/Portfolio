@@ -7,8 +7,10 @@ export default function Projects() {
 
     return (
       <>
-        <div id="projects" data-aos="fade-left" className="sections">
-          <h1 className="projects-title">Projects</h1>
+        <div id="projects" className="sections">
+          <h1 className="projects-title" data-aos="fade-left">
+            Projects
+          </h1>
           <div className="projects-section">
             {projects.map((project) => {
               return <Project key={project.id} {...project} />;

@@ -8,10 +8,9 @@
     background-color: #F9F7F7;
     /* padding: 2rem; */
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
     width: auto;
 }
 .projects-title {

@@ -19,6 +19,7 @@ html {
     position: fixed;
     z-index: 999;
     background-color: var(--background);
+    height: 10vh;
     top: 0;
     left: 0;
     right: 0;
@@ -77,4 +78,16 @@ html {
 }
 .titleScroll {
     color: var(--background);
+}
+@media screen and (max-width: 768px) {
+    .navbar {
+        height: auto;
+    }
+    .nav-link {
+        font-size: medium;
+    }
+    .name {
+        font-size: 1.2rem;
+    }
+    
 }

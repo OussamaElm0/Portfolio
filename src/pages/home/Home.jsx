@@ -39,36 +39,38 @@ export default function Home() {
 
     return (
       <>
-        <div className="home-section" id='home'>
-          <motion.div className="hello drag-area" ref={constraintsRef}>
-            <motion.div
-              drag
-              className="hello-title"
-              dragConstraints={constraintsRef}
-            >
-              <h1>
-                Hi There! <PiHandWaving /> <br />
-                I'M <span className="text-primary">OUSSAMA EL MABROUKI</span>
-              </h1>
-              <p className="lead">
-                I'm a <span ref={nameAndJob} />
-              </p>
+        <div className="sections" id="home">
+          <div className="home-section">
+            <motion.div className="hello drag-area" ref={constraintsRef}>
+              <motion.div
+                drag
+                className="hello-title"
+                dragConstraints={constraintsRef}
+              >
+                <h1>
+                  Hi There! <PiHandWaving /> <br />
+                  I'M <span className="text-primary">OUSSAMA EL MABROUKI</span>
+                </h1>
+                <p className="lead">
+                  I'm a <span ref={nameAndJob} />
+                </p>
+              </motion.div>
             </motion.div>
-          </motion.div>
-          <div className="picture"></div>
-          <div className="links ">
-            <a href={github} target="_blank" rel="noreferrer">
-              <AiOutlineGithub className="logo" />
-            </a>
-            <a href={whatsapp} target="_blank" rel="noreferrer">
-              <BsWhatsapp className="logo" />
-            </a>
-            <a href={linkedin} target="_blank" rel="noreferrer">
-              <AiFillLinkedin className="logo" />
-            </a>
-            <a href={gmail} target="_blank" rel="noreferrer">
-              <BiLogoGmail className="logo" />
-            </a>
+            <div className="picture"></div>
+            <div className="links ">
+              <a href={github} target="_blank" rel="noreferrer">
+                <AiOutlineGithub className="logo" />
+              </a>
+              <a href={whatsapp} target="_blank" rel="noreferrer">
+                <BsWhatsapp className="logo" />
+              </a>
+              <a href={linkedin} target="_blank" rel="noreferrer">
+                <AiFillLinkedin className="logo" />
+              </a>
+              <a href={gmail} target="_blank" rel="noreferrer">
+                <BiLogoGmail className="logo" />
+              </a>
+            </div>
           </div>
         </div>
       </>

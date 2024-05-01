@@ -40,7 +40,7 @@ export default function Contact() {
 
   return (
     <>
-      <div id="contact" data-aos="fade-down">
+      <div id="contact" data-aos="fade-down" className="sections">
         <h1 className="text-center contact-title">
           Contact <span>Me</span>
         </h1>

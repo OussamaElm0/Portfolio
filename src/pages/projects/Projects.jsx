@@ -7,7 +7,7 @@ export default function Projects() {
 
     return (
       <>
-        <div id="projects" data-aos="fade-left">
+        <div id="projects" data-aos="fade-left" className="sections">
           <h1 className="projects-title">Projects</h1>
           <div className="projects-section">
             {projects.map((project) => {

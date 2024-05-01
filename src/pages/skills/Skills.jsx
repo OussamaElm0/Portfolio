@@ -6,7 +6,7 @@ import "./Skills.css";
 export default function Skills() {
 
     return (
-      <div id="skills">
+      <div id="skills" className="sections">
         <div className="skills-section" data-aos="fade-up">
           <div className="grid-section">
             <h2 className="skill-title">Techs</h2>

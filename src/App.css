@@ -1,0 +1,6 @@
+.sections {
+    padding: 10vh;
+}
+.sections#home {
+    padding: 5vh !important;
+}

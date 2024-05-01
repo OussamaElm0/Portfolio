@@ -10,6 +10,7 @@ import Contact from './pages/contact/Contact';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Analytics } from "@vercel/analytics/react"
+import './App.css';
 
 export default function App() {
     useEffect(() => {

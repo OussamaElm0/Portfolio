@@ -4,6 +4,7 @@ export const projects = [
     name: "My-Pharmacy",
     picture: "/assets/projects/Image_not_available.png",
     live_view: null,
+    code: "",
     description: `A pharmacy management app built with Laravel,Livewire, Bootstrap and MySQL.
       The app allows the user to manage the pharmacy's inventory, sales, and users.
       The app also includes a dashboard that displays the pharmacy's sales and inventory.
@@ -15,6 +16,7 @@ export const projects = [
     name: "Agv Control Panel",
     picture: "/assets/projects/Image_not_available.png",
     live_view: null,
+    code: "https://github.com/OussamaElm0/agv-control-panel",
     description: `A control panel for an AGV (Automated Guided Vehicle) built with django, sass, bootstrap, and MySQL.
       The control panel allows the user to manage the AGV's tasks, routes, blocs and users.
       The control panel also includes a dashboard that displays the AGV's statistics using chart.js and matplotlip libraries.

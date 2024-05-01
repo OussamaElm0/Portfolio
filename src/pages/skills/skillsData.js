@@ -76,62 +76,70 @@ export const techs = [
     },
 
 ]
-
 export const tools = [
-    {
-        id: 1,
-        name: 'VS Code',
-        logo: 'https://cdn.svgporn.com/logos/visual-studio-code.svg',
-    },
-    {
-        id: 2,
-        name: 'Git',
-        logo: 'https://cdn.svgporn.com/logos/git-icon.svg',
-    },
-    {
-        id: 3,
-        name: 'GitHub',
-        logo: 'https://cdn.svgporn.com/logos/github-icon.svg',
-    },
-    {
-        id: 4,
-        name: 'GitLab',
-        logo: 'https://cdn.svgporn.com/logos/gitlab.svg',
-    },
-    {
-        id: 5,
-        name: 'Postman',
-        logo: 'https://cdn.svgporn.com/logos/postman.svg',
-    },
-    {
-        id: 6,
-        name: "NPM",
-        logo: 'https://cdn.svgporn.com/logos/npm.svg',
-    },
-    {
-        id: 7,
-        name: "PhpStorm",
-        logo: 'https://cdn.svgporn.com/logos/phpstorm.svg',
-    },
-    {
-        id: 8,
-        name: "PyCharm",
-        logo: 'https://cdn.svgporn.com/logos/pycharm.svg',
-    },
-    {
-        id: 9,
-        name: "Figma",
-        logo: 'https://cdn.svgporn.com/logos/figma.svg',
-    },
-    {
-        id: 10,
-        name: "Vercel",
-        logo: 'https://cdn.svgporn.com/logos/vercel-icon.svg',
-    },
-    {
-        id: 11,
-        name: "Netlify",
-        logo: 'https://cdn.svgporn.com/logos/netlify.svg',
-    },
-    
-]
+  {
+    id: 1,
+    name: "Rest API",
+    logo: "https://user-images.githubusercontent.com/25181517/192107858-fe19f043-c502-4009-8c47-476fc89718ad.png",
+  },
+  {
+    id: 2,
+    name: "Git",
+    logo: "https://cdn.svgporn.com/logos/git-icon.svg",
+  },
+  {
+    id: 3,
+    name: "GitHub",
+    logo: "https://cdn.svgporn.com/logos/github-icon.svg",
+  },
+  {
+    id: 4,
+    name: "GitLab",
+    logo: "https://cdn.svgporn.com/logos/gitlab.svg",
+  },
+  {
+    id: 5,
+    name: "Postman",
+    logo: "https://cdn.svgporn.com/logos/postman.svg",
+  },
+  {
+    id: 6,
+    name: "NPM",
+    logo: "https://cdn.svgporn.com/logos/npm.svg",
+  },
+  {
+    id: 1,
+    name: "VS Code",
+    logo: "https://cdn.svgporn.com/logos/visual-studio-code.svg",
+  },
+  {
+    id: 7,
+    name: "PhpStorm",
+    logo: "https://cdn.svgporn.com/logos/phpstorm.svg",
+  },
+  {
+    id: 8,
+    name: "WebStorm",
+    logo: "https://cdn.svgporn.com/logos/webstorm.svg",
+  },
+  {
+    id: 9,
+    name: "PyCharm",
+    logo: "https://cdn.svgporn.com/logos/pycharm.svg",
+  },
+  {
+    id: 10,
+    name: "Figma",
+    logo: "https://cdn.svgporn.com/logos/figma.svg",
+  },
+  {
+    id: 11,
+    name: "Vercel",
+    logo: "https://cdn.svgporn.com/logos/vercel-icon.svg",
+  },
+  {
+    id: 12,
+    name: "Netlify",
+    logo: "https://cdn.svgporn.com/logos/netlify.svg",
+  },
+];

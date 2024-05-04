@@ -82,6 +82,7 @@ html {
 @media screen and (max-width: 768px) {
     .navbar {
         height: auto;
+        width: 100vw;
     }
     .nav-link {
         font-size: medium;

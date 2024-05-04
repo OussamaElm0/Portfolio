@@ -2,5 +2,19 @@
     padding: 10vh;
 }
 .sections#home {
-    padding: 2vh !important;
+    padding-top: 2vh !important;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+        padding: 0;
+    }  
+    .sections {
+        padding: 0;
+        padding-top: 5vh !important;
+    }
+    .sections#home {
+        padding-top: 2vh !important;
+    }
 }

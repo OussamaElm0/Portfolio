@@ -6,7 +6,6 @@
 }
 #projects {
     background-color: #F9F7F7;
-    /* padding: 2rem; */
     height: 100%;
     display: grid;
     grid-template-columns: 1fr;
@@ -66,8 +65,8 @@
 }
 .techs-used {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-flow: row wrap;
+    gap: 0.5rem;
     width: 100%;
 }
 .project-title {
@@ -107,11 +106,17 @@
 .project:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
+    #projects {
+        padding: 0;
+    }
     .projects-section {
         grid-template-columns: 1fr;
+        padding: 0;
     }
     .project {
         grid-column: span 1;
+        font-size: 1rem;
+        width: 300px;
     }
 }
